@@ -1,0 +1,15 @@
+p{
+    background-color: rgb(219, 210, 86);
+    border: solid;
+}
+h2{
+    background: rgb(142, 177, 195);
+    font-family:Verdana, Tahoma, sans-serif;
+    border: solid;
+}
+#A{
+    background-color: violet;
+}
+.C{
+    background-color: tomato;
+}
