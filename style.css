@@ -1,3 +1,57 @@
-#mydata{
-    background-color: aqua;
+*{margin: 0%;
+padding: 0%
+;}
+
+.mainbody{
+    height: 800px;
+    width: 80%;
+    margin: 0px 10%;
+    background: gray;
 }
+.header{
+    height: 100px;
+    width: 100%;
+    background: rgb(179, 153, 8);
+    text-align: center;
+}
+
+.center{
+    height: 600px;
+    width: 100%;
+    background: rgb(67, 8, 135);
+    text-align: center;
+}
+
+.left{
+    height: 600px;
+    width: 20%;
+    background: yellow;
+    float: left;
+}
+   .mid{
+    height: 600px;
+    width: 60%;
+    background: violet;
+    float: left;
+   }
+
+   .right{
+    height: 600px;
+    width: 20%;
+    background: rgb(11, 184, 169);
+    float: left;
+   }
+
+    .menu{
+        height: 50px;
+        width: 100%;
+        background: rgb(119, 5, 51);
+        text-align: center;
+    }
+
+    .footer{
+        height: 80px;
+        width: 100%;
+        background: rgb(139, 11, 11);
+        text-align: center;
+    }
