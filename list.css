@@ -1,0 +1,17 @@
+  ul {
+      /* list-style: circle; */
+      list-style: none;
+  }
+
+  li {
+      background: pink;
+      width: 25%;
+      text-align: center;
+      margin-top: 15px;
+      padding: 15px 0px;
+  }
+
+  li:hover {
+      background: orange;
+      color: aliceblue;
+  }
