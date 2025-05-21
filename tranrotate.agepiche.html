@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div{
+            height: 60px;
+            width: 100px;
+            background: tomato;
+            animation: result 8s ;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes result{
+            /* 0%{transform: translate(0px,0px);}
+            100%{transform:translate(300px,200px);} */
+            0%{transform: translateX(0px) rotate(0deg) scale(1,1);}
+            20%{transform: translateX(400px)rotate(700deg);}
+        }
+    </style>
+</head>
+<body>
+    <div>Pranav</div>
+</body>
+</html>

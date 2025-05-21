@@ -2,15 +2,22 @@
 <html lang="en">
 <head>
     <title>Document</title>
-    <!-- <style>
-        # my data {
-            background: aqua;
+    <style>
+        div{
+            height: 100px;
+            width: 150px;
+            background: turquoise;
+            margin: 100px;
+            /* transform: rotate(40deg);Rotate agr krna ho toh  */
+            /* transform: scale(2,3);x axis aur y axis k liye
+             */
+             /* transform: skew(40deg,10deg);  x aur y ko rotate krne k liye...
+             Transform matrix------ScaleX,skewY,skewX,scaleY,translateX,translateY */
+transform: matrix(2,0,0.698132,2.5,100,150);
         }
-    </style> -->
+    </style>
 </head>
 <body>
-    <h1 id="my data">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
-    <h1 class="my data class">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
-
+    <div>Hello</div>
 </body>
 </html>

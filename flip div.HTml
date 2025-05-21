@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+            height: 200px;
+            width: 350px;
+            perspective: 900px;
+        }
+
+        .inner{
+            height: 200px;
+            width: 350px;
+            animation: flip 4s;
+            animation-fill-mode: forwards;
+            animation-play-state: paused;
+            transform-style: preserve-3d;
+        }
+
+        .front img{
+            height: 200px;
+            width: 350px;
+        }
+
+        .front,.back{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            backface-visibility: hidden;
+        }
+
+        .back{
+            transform: rotateY(180deg);
+            background: palevioletred;
+        }
+
+        @keyframes flip{
+            0%{
+                transform: rotateY(0deg);
+            }
+
+            100%{
+                transform: rotateY(180deg);
+            }
+        }
+
+        .outer:hover .inner{
+            animation-play-state: running;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="front">
+                <img src="background photo.jpg" alt="">
+            </div>
+            <div class="back">
+                <p>HEy How Are You?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

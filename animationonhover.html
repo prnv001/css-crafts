@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div{
+            height: 70px;
+            width: 70px;
+            background: rgb(15, 218, 59);
+            text-align: center;
+            animation: data 2s;
+            animation-iteration-count: infinite;
+            animation-play-state: paused;
+        }
+
+        @keyframes data{
+            0%{transform: rotate(0deg);}
+            100%{transform: rotate(360deg);}
+        }
+
+        div:hover{
+            animation-play-state: running;
+        }
+    </style>
+</head>
+<body>
+    <div>Bans</div>
+</body>
+</html>

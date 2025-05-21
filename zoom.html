@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+            width: 400px;
+            border: 10px solid orange;
+            overflow: hidden;
+        }
+
+        img{
+            height: 300px;
+            width: 400px;
+            animation: zoom 2s;
+            animation-play-state: paused;
+
+        }
+
+        @keyframes zoom{
+            0%{transform: scale(1);}
+            100%{transform: scale(1.8);}
+        }
+        div:hover img{
+            animation-play-state: running;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="background photo.jpg" alt="">
+    </div>
+</body>
+</html>
